@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - flake8 >=3.2.1
-    - isort >=4.3.0
+    - isort >=4.3.5
     - python
     - testfixtures
 
@@ -31,7 +31,7 @@ test:
 
 about:
   home: https://github.com/gforcada/flake8-isort
-  license: GPL-2.0
+  license: GPL-2.0-or-later
   license_family: GPL
   license_file: LICENSE
   summary: flake8 plugin that integrates isort .

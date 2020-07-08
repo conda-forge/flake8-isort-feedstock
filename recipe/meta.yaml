@@ -1,5 +1,5 @@
 {% set name = "flake8-isort" %}
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3ce227b5c5342b6d63937d3863e8de8783ae21863cb035cf992cdb0ba5990aa3
+  sha256: 5d976da513cc390232ad5a9bb54aee8a092466a15f442d91dfc525834bee727a
 
 build:
   number: 0
@@ -20,14 +20,18 @@ requirements:
     - python
     - setuptools
   run:
-    - flake8 >=3.2.1
-    - isort >=4.3.5
+    - flake8 >=3.2.1,<4
+    - isort >=4.3.5,<5
     - python
-    - testfixtures
+    - testfixtures >=6.8.0,<7
 
 test:
   imports:
     - flake8_isort
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/gforcada/flake8-isort

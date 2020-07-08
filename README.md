@@ -3,9 +3,9 @@ About flake8-isort
 
 Home: https://github.com/gforcada/flake8-isort
 
-Package license: GPL-2.0
+Package license: GPL-2.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: flake8 plugin that integrates isort .
 

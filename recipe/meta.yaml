@@ -20,14 +20,18 @@ requirements:
     - python
     - setuptools
   run:
-    - flake8 >=3.2.1
-    - isort >=4.3.5
+    - flake8 >=3.2.1,<4
+    - isort >=4.3.5,<5
     - python
-    - testfixtures
+    - testfixtures >=6.8.0,<7
 
 test:
   imports:
     - flake8_isort
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/gforcada/flake8-isort

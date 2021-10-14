@@ -1,5 +1,5 @@
 {% set name = "flake8-isort" %}
-{% set version = "4.0.0" %}
+{% set version = "4.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2b91300f4f1926b396c2c90185844eb1a3d5ec39ea6138832d119da0a208f4d9
+  sha256: d814304ab70e6e58859bc5c3e221e2e6e71c958e7005239202fee19c24f82717
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 

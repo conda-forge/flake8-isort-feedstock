@@ -145,6 +145,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@dopplershift](https://github.com/dopplershift/)
 * [@marcelotrevisani](https://github.com/marcelotrevisani/)
 * [@xylar](https://github.com/xylar/)
 

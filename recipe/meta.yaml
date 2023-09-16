@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
   run:
-    - python >=3.7
+    - python >=3.8
     - flake8
     - isort >=5.0.0,<6
 

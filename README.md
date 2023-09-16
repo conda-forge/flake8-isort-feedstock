@@ -1,11 +1,11 @@
-About flake8-isort
-==================
+About flake8-isort-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-isort-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/gforcada/flake8-isort
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-isort-feedstock/blob/main/LICENSE.txt)
 
 Summary: flake8 plugin that integrates isort .
 

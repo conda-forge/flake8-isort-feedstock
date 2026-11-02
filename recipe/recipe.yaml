@@ -20,8 +20,8 @@ build:
 requirements:
   host:
     - python ${{ python_min }}.*
-    - hatchling
     - pip
+    - hatchling
   run:
     - python >=${{ python_min }}
     - flake8
@@ -32,7 +32,9 @@ tests:
       imports:
         - flake8_isort
       pip_check: true
-      python_version: ${{ python_min }}
+      python_version:
+        - ${{ python_min }}
+        - "*"
 
 about:
   license: GPL-2.0-or-later
